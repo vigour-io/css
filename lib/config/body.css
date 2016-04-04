@@ -1,0 +1,20 @@
+/**
+ * Body configuration variables
+ */
+
+@import 'typography.css';
+@import 'colors.css';
+@import 'headings.css';
+
+:root {
+  --body-color: black;
+  --body-background: white;
+
+  --body-font-size: var(--h6);
+  --body-font-style: normal;
+
+  --body-font-weight: var(--font-regular);
+  --body-font-variant: normal;
+  --body-line-height: 1.4;
+  --body-font-family: var(--font-family-sans-serif);
+}

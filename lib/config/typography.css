@@ -1,0 +1,15 @@
+/**
+ * Typography
+ */
+
+:root {
+  // primary fonts
+  --font-serif: 'Times New Roman';
+  --font-sans-serif: "Source Sans Pro";
+  --font-monospace: 'Courier New';
+
+  // font families
+  --font-family-serif: var(--font-serif), Times, serif;
+  --font-family-sans-serif: var(--font-sans-serif), San Francisco, Helvetica, Arial, sans-serif;
+  --font-family-monospace: 'Courier New', Courier, monospace;
+}
