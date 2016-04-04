@@ -1,0 +1,5 @@
+:root {
+  --transition-duration: .3s;
+  /* @transition-delay: 0; */
+  --transition: ease var(--transition-duration);
+}
