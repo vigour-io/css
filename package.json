@@ -1,9 +1,10 @@
 {
   "name": "vigour-css",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "lib/index.css",
   "scripts": {
+    "dev": "vpack ./test/index.js --package -p 8068 -o --no-info",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
