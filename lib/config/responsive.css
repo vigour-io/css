@@ -18,6 +18,7 @@
 
 
 @custom-media --bigger-than-tablet (width >= var(--tablet))
+@custom-media --smaller-than-tablet (width < var(--tablet))
 
 @custom-media --smaller-than-tablet-landscape (width < var(--tablet-landscape))
 @custom-media --bigger-than-tablet-landscape (width >= var(--tablet-landscape))
