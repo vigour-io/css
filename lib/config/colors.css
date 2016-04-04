@@ -8,29 +8,29 @@
  */
 
 :root {
-  // brand blue
+  /* brand blue */
   --blue: #3E92E2;
 
-  // brand yellow
+  /* brand yellow */
   --yellow: #FAEB00;
 
-  // brand red
+  /* brand red */
   --red: #FF0649;
 
-  // brand lilac
+  /* brand lilac */
   --lilac: #C187C3;
 
-  // brand green
+  /* brand green */
   --green: #00BA88;
 
-  // brand pink
+  /* brand pink */
   --pink: #FF63A8;
 
-  // brand orange
+  /* brand orange */
   --orange: #FFAA15;
 
 
-  // brand grayscale
+  /* brand grayscale */
   --blackgray: #1B1D1F;
 
   --darkgray: #272833;
@@ -46,7 +46,7 @@
   --whitegray: #F9FAFA;
 
 
-  // social network colors
+  /* social network colors */
   --twitter: #55ACEE;
 
   --facebook: #3A5798;
@@ -70,7 +70,7 @@
  */
 
 :root {
-  // primary theme
+  /* primary theme */
   --primary:                      black;
   --primary-hover:                black;
   --primary-focus:                black;
@@ -78,7 +78,7 @@
   --primary-contrast-hover:       black;
   --primary-contrast-focus:       black;
 
-  // secondary theme
+  /* secondary theme */
   --secondary:                    black;
   --secondary-hover:              black;
   --secondary-focus:              black;
@@ -86,7 +86,7 @@
   --secondary-contrast-hover:     black;
   --secondary-contrast-focus:     black;
 
-  // tertiary theme
+  /* tertiary theme */
   --tertiary:                     black;
   --tertiary-hover:               black;
   --tertiary-focus:               black;
@@ -94,7 +94,7 @@
   --tertiary-contrast-hover:      black;
   --tertiary-contrast-focus:      black;
 
-  // quaternary theme
+  /* quaternary theme */
   --quaternary:                   black;
   --quaternary-hover:             black;
   --quaternary-focus:             black;
@@ -102,7 +102,7 @@
   --quaternary-contrast-hover:    black;
   --quaternary-contrast-focus:    black;
 
-  // quinary theme
+  /* quinary theme */
   --quinary:                      black;
   --quinary-hover:                black;
   --quinary-focus:                black;
@@ -110,7 +110,7 @@
   --quinary-contrast-hover:       black;
   --quinary-contrast-focus:       black;
 
-  // grayscale dark theme
+  /* grayscale dark theme */
   --graydark:                     black;
   --graydark-hover:               black;
   --graydark-focus:               black;
@@ -118,7 +118,7 @@
   --graydark-contrast-hover:      black;
   --graydark-contrast-focus:      black;
 
-  // grayscale light theme
+  /* grayscale light theme */
   --graylight:                    black;
   --graylight-hover:              black;
   --graylight-focus:              black;
@@ -126,7 +126,7 @@
   --graylight-contrast-hover:     black;
   --graylight-contrast-focus:     black;
 
-  // black and white theme
+  /* black and white theme */
   --blackwhite:                   black;
   --blackwhite-hover:             black;
   --blackwhite-focus:             black;
