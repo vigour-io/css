@@ -1,0 +1,17 @@
+/**
+ * Reponsive breakpoints
+ */
+
+:root {
+  --phone: 320px;
+  --phone-landscape: 480px;
+
+  --tablet: 768px;
+  --tablet-landscape: 1024px;
+
+  --screen-small: 1280px;
+  --screen-medium: 1366px;
+  --screen-big: 1680px;
+
+  --tv: 1920px;
+}

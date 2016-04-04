@@ -6,6 +6,12 @@
  * for almost all property in the browser.
  */
 
+@import 'config/body.css';
+@import 'config/colors.css';
+@import 'config/typography.css';
+@import 'config/headings.css';
+@import 'config/paragraph.css';
+
 html {
   position: relative;
   height: 100%;
@@ -23,15 +29,15 @@ html {
 body {
   padding: .01rem 0 0;
   margin: 0;
-  line-height: @body-line-height;
+  line-height: var(--body-line-height);
   border: 0;
   outline: 0;
-  font-weight: @body-font-weight;
-  font-size: @body-font-size;
-  font-style: @body-font-style;
-  font-variant: @body-font-variant;
-  font-family: @body-font-family;
-  min-width: @container-min-width;
+  font-weight: var(--body-font-weight);
+  font-size: var(--body-font-size);
+  font-style: var(--body-font-style);
+  font-variant: var(--body-font-variant);
+  font-family: var(--body-font-family);
+  min-width: var(--container-min-width);
   overflow-x: hidden;
   position: relative;
   min-height: 100%;
@@ -44,34 +50,34 @@ h3,
 h4,
 h5,
 h6 {
-  margin: @heading-margin;
-  line-height: @heading-line-height;
-  font-family: @heading-family;
-  font-weight: @heading-weight;
+  margin: var(--heading-margin);
+  line-height: var(--heading-line-height);
+  font-family: var(--heading-family);
+  font-weight: var(--heading-weight);
 }
 
 h1 {
-  font-size: @h1;
+  font-size: var(--h1);
 }
 
 h2 {
-  font-size: @h2;
+  font-size: var(--h2);
 }
 
 h3 {
-  font-size: @h3;
+  font-size: var(--h3);
 }
 
 h4 {
-  font-size: @h4;
+  font-size: var(--h4);
 }
 
 h5 {
-  font-size: @h5;
+  font-size: var(--h5);
 }
 
 h6 {
-  font-size: @h6;
+  font-size: var(--h6);
 }
 
 
@@ -139,21 +145,21 @@ audio:not([controls]) {
 
 a {
   color: currentColor;
-  font-weight: @a-weight;
-  text-decoration: @a-decoration;
-  font-family: @a-family, @body-font-family;
+  font-weight: var(--a-weight);
+  text-decoration: var(--a-decoration);
+  font-family: var(--a-family), var(--body-font-family);
   outline: none;
   cursor: pointer;
 
   &.interactive {
     &:hover {
-      color: @a-hover;
-      text-decoration: @a-hover-decoration;
+      color: var(--a-hover);
+      text-decoration: var(--a-hover-decoration);
     }
 
     &:focus {
-      color: @a-focus;
-      text-decoration: @a-focus-decoration;
+      color: var(--a-focus);
+      text-decoration: var(--a-focus-decoration);
     }
   }
 }
@@ -164,9 +170,9 @@ a:hover {
 }
 
 p {
-  line-height: @paragraph-line-height;
-  margin: @paragraph-margin;
-  font-family: @paragraph-family, @body-font-family;
+  line-height: var(--paragraph-line-height);
+  margin: var(--paragraph-margin);
+  font-family: var(--paragraph-family), var(--body-font-family);
 }
 
 abbr[title] {
@@ -175,7 +181,7 @@ abbr[title] {
 
 b,
 strong {
-  font-weight: @font-bold;
+  font-weight: var(--font-bold);
 }
 
 dfn {
@@ -236,8 +242,8 @@ svg:not(:root) {
 
 hr {
   border: 0;
-  border-bottom: @lightgray 1px solid;
-  margin: @gutter 0;
+  border-bottom: var(--lightgray) 1px solid;
+  margin: var(--gutter) 0;
 }
 
 figure {
