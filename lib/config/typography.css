@@ -8,7 +8,7 @@
   --font-monospace: 'Courier New';
 
   --font-family-serif: var(--font-serif), Times, serif;
-  --font-family-sans-serif: var(--font-sans-serif), San Francisco, Helvetica, Arial, sans-serif;
+  --font-family-sans-serif: var(--font-sans-serif), -apple-system, Helvetica, Arial, sans-serif;
   --font-family-monospace: 'Courier New', Courier, monospace;
 
   --font-slim: 200;

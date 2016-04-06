@@ -17,8 +17,26 @@
 }
 
 
+@custom-media --bigger-than-mobile (width >= var(--mobile))
+@custom-media --smaller-than-mobile (width < var(--mobile))
+
+@custom-media --smaller-than-phone-landscape (width < var(--phone-landscape))
+@custom-media --bigger-than-phone-landscape (width >= var(--phone-landscape))
+
 @custom-media --bigger-than-tablet (width >= var(--tablet))
 @custom-media --smaller-than-tablet (width < var(--tablet))
 
 @custom-media --smaller-than-tablet-landscape (width < var(--tablet-landscape))
 @custom-media --bigger-than-tablet-landscape (width >= var(--tablet-landscape))
+
+@custom-media --bigger-than-screen-small (width >= var(--screen-small))
+@custom-media --smaller-than-screen-small (width < var(--screen-small))
+
+@custom-media --bigger-than-screen-medium (width >= var(--screen-medium))
+@custom-media --smaller-than-screen-medium (width < var(--screen-medium))
+
+@custom-media --bigger-than-screen-big (width >= var(--screen-big))
+@custom-media --smaller-than-screen-big (width < var(--screen-big))
+
+@custom-media --bigger-than-screen-tv (width >= var(--screen-tv))
+@custom-media --smaller-than-screen-tv (width < var(--screen-tv))
