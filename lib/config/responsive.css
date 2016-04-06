@@ -17,26 +17,26 @@
 }
 
 
-@custom-media --bigger-than-mobile (width >= 320px)
-@custom-media --smaller-than-mobile (width < 320px)
+@custom-media --bigger-than-mobile (width >= 320px);
+@custom-media --smaller-than-mobile (width < 320px);
 
-@custom-media --smaller-than-phone-landscape (width < 480px)
-@custom-media --bigger-than-phone-landscape (width >= 480px)
+@custom-media --smaller-than-phone-landscape (width < 480px);
+@custom-media --bigger-than-phone-landscape (width >= 480px);
 
-@custom-media --bigger-than-tablet (width >= 768px)
-@custom-media --smaller-than-tablet (width < 768px)
+@custom-media --bigger-than-tablet (width >= 768px);
+@custom-media --smaller-than-tablet (width < 768px);
 
-@custom-media --smaller-than-tablet-landscape (width < 1024px)
-@custom-media --bigger-than-tablet-landscape (width >= 1024px)
+@custom-media --smaller-than-tablet-landscape (width < 1024px);
+@custom-media --bigger-than-tablet-landscape (width >= 1024px);
 
-@custom-media --bigger-than-screen-small (width >= 1280px)
-@custom-media --smaller-than-screen-small (width < 1280px)
+@custom-media --bigger-than-screen-small (width >= 1280px);
+@custom-media --smaller-than-screen-small (width < 1280px);
 
-@custom-media --bigger-than-screen-medium (width >= 1366px)
-@custom-media --smaller-than-screen-medium (width < 1366px)
+@custom-media --bigger-than-screen-medium (width >= 1366px);
+@custom-media --smaller-than-screen-medium (width < 1366px);
 
-@custom-media --bigger-than-screen-big (width >= 1680px)
-@custom-media --smaller-than-screen-big (width < 1680px)
+@custom-media --bigger-than-screen-big (width >= 1680px);
+@custom-media --smaller-than-screen-big (width < 1680px);
 
-@custom-media --bigger-than-screen-tv (width >= 1920px)
-@custom-media --smaller-than-screen-tv (width < 1920px)
+@custom-media --bigger-than-screen-tv (width >= 1920px);
+@custom-media --smaller-than-screen-tv (width < 1920px);
