@@ -133,4 +133,16 @@
   --blackwhite-contrast:          black;
   --blackwhite-contrast-hover:    black;
   --blackwhite-contrast-focus:    black;
+
+  /* success dialog colors */
+  --success:                  limegreen;
+  --success-contrast:             white;
+
+  /* waring dialog colors */
+  --waring:                  darkorange;
+  --waring-contrast:              white;
+
+  /* error dialog colors */
+  --error:                          red;
+  --error-contrast:               white;
 }
