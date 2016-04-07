@@ -139,8 +139,8 @@
   --success-contrast:             white;
 
   /* waring dialog colors */
-  --waring:                  darkorange;
-  --waring-contrast:              white;
+  --warning:                 darkorange;
+  --warning-contrast:             white;
 
   /* error dialog colors */
   --error:                          red;
