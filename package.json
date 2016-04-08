@@ -1,5 +1,5 @@
 {
-  "name": "vigour-css",
+  "name": "@vigour-io/css",
   "version": "0.0.1",
   "description": "",
   "main": "lib/index.css",
