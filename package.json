@@ -4,7 +4,7 @@
   "description": "",
   "main": "lib/index.css",
   "scripts": {
-    "dev": "vpack ./test/index.js --package -p 8068 -o --no-info",
+    "dev": "vpack ./test/index.js --package -p 8101 -o --no-info",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
