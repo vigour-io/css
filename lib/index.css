@@ -9,3 +9,5 @@
 @import "config/paragraph.css";
 @import "config/responsive.css";
 @import "config/typography.css";
+
+@import "animation/fade.css";
