@@ -1,251 +1,238 @@
-.fadeIn {
-  @keyframes fadeIn {
-    0% {
-      opacity: 0;
-      visibility: hidden;
-    }
-
-    100% {
-      opacity: 1;
-      visibility: visible;
-    }
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    visibility: hidden;
   }
 
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+.fadeIn {
   animation-name: fadeIn;
   animation-duration: var(--animation-in-duration, 1s);
 }
 
 
-.fadeInDown {
-  @keyframes fadeInDown {
-    0% {
-      opacity: 0;
-      visibility: hidden;
-      transform: translate3d(0, -100px, 1px);
-    }
-
-    100% {
-      opacity: 1;
-      visibility: visible;
-      transform: none;
-    }
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+    transform: translate3d(0, -100px, 1px);
   }
 
+  100% {
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+  }
+}
+.fadeInDown {
   animation-name: fadeInDown;
   animation-duration: var(--animation-in-duration, 1s);
 }
 
 
-.fadeInDownBig {
-  @keyframes fadeInDownBig {
-    0% {
-      opacity: 0;
-      visibility: hidden;
-      transform: translate3d(0, -2000px, 1px);
-    }
-
-    100% {
-      opacity: 1;
-      visibility: visible;
-      transform: none;
-    }
+@keyframes fadeInDownBig {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+    transform: translate3d(0, -2000px, 1px);
   }
 
+  100% {
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+  }
+}
+.fadeInDownBig {
   animation-name: fadeInDownBig;
   animation-duration: var(--animation-in-duration, 1s);
 }
 
 
-.fadeInLeft {
-  @keyframes fadeInLeft {
-    0% {
-      opacity: 0;
-      visibility: hidden;
-      transform: translate3d(-100%, 0, 1px);
-    }
-
-    100% {
-      opacity: 1;
-      visibility: visible;
-      transform: none;
-    }
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+    transform: translate3d(-100%, 0, 1px);
   }
 
+  100% {
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+  }
+}
+.fadeInLeft {
   animation-name: fadeInLeft;
   animation-duration: var(--animation-in-duration, 1s);
 }
 
 
-.fadeInLeftBig {
-  @keyframes fadeInLeftBig {
-    0% {
-      opacity: 0;
-      visibility: hidden;
-      transform: translate3d(-2000px, 0, 1px);
-    }
-
-    100% {
-      opacity: 1;
-      visibility: visible;
-      transform: none;
-    }
+@keyframes fadeInLeftBig {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+    transform: translate3d(-2000px, 0, 1px);
   }
 
+  100% {
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+  }
+}
+.fadeInLeftBig {
   animation-name: fadeInLeftBig;
   animation-duration: var(--animation-in-duration, 1s);
 }
 
 
-.fadeInRight {
-  @keyframes fadeInRight {
-    0% {
-      opacity: 0;
-      visibility: hidden;
-      transform: translate3d(100%, 0, 1px);
-    }
-
-    100% {
-      opacity: 1;
-      visibility: visible;
-      transform: none;
-    }
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+    transform: translate3d(100%, 0, 1px);
   }
 
+  100% {
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+  }
+}
+.fadeInRight {
   animation-name: fadeInRight;
   animation-duration: var(--animation-in-duration, 1s);
 }
 
 
-.fadeInRightBig {
-  @keyframes fadeInRightBig {
-    0% {
-      opacity: 0;
-      visibility: hidden;
-      transform: translate3d(2000px, 0, 1px);
-    }
-
-    100% {
-      opacity: 1;
-      visibility: visible;
-      transform: none;
-    }
+@keyframes fadeInRightBig {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+    transform: translate3d(2000px, 0, 1px);
   }
 
+  100% {
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+  }
+}
+.fadeInRightBig {
   animation-name: fadeInRightBig;
   animation-duration: var(--animation-in-duration, 1s);
 }
 
 
-.fadeInUp {
-  @keyframes fadeInUp {
-    0% {
-      opacity: 0;
-      visibility: hidden;
-      transform: translate3d(0, 200px, 1px);
-    }
-
-    100% {
-      opacity: 1;
-      visibility: visible;
-      transform: none;
-    }
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+    transform: translate3d(0, 200px, 1px);
   }
 
+  100% {
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+  }
+}
+.fadeInUp {
   animation-name: fadeInUp;
   animation-duration: var(--animation-in-duration, 1s);
 }
 
 
-.fadeInUpBig {
-  @keyframes fadeInUpBig {
-    0% {
-      opacity: 0;
-      visibility: hidden;
-      transform: translate3d(0, 2000px, 1px);
-    }
-
-    100% {
-      opacity: 1;
-      visibility: visible;
-      transform: none;
-    }
+@keyframes fadeInUpBig {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+    transform: translate3d(0, 2000px, 1px);
   }
 
+  100% {
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+  }
+}
+.fadeInUpBig {
   animation-name: fadeInUpBig;
   animation-duration: var(--animation-in-duration, 1s);
 }
 
 
-.fadeOut {
-  @keyframes fadeOut {
-    0% {
-      opacity: 1;
-      visibility: visible;
-    }
-
-    100% {
-      opacity: 0;
-      visibility: hidden;
-    }
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+    visibility: visible;
   }
 
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+.fadeOut {
   animation-name: fadeOut;
   animation-duration: var(--animation-out-duration, 1s);
 }
 
 
-.fadeOutDown {
-  @keyframes fadeOutDown {
-    0% {
-      opacity: 1;
-      visibility: visible;
-    }
-
-    100% {
-      opacity: 0;
-      visibility: hidden;
-      transform: translate3d(0, 100%, 1px);
-    }
+@keyframes fadeOutDown {
+  0% {
+    opacity: 1;
+    visibility: visible;
   }
 
+  100% {
+    opacity: 0;
+    visibility: hidden;
+    transform: translate3d(0, 100%, 1px);
+  }
+}
+.fadeOutDown {
   animation-name: fadeOutDown;
   animation-duration: var(--animation-out-duration, 1s);
 }
 
 
-.fadeOutDownBig {
-  @keyframes fadeOutDownBig {
-    0% {
-      opacity: 1;
-      visibility: visible;
-    }
-
-    100% {
-      opacity: 0;
-      visibility: hidden;
-      transform: translate3d(0, 2000px, 1px);
-    }
+@keyframes fadeOutDownBig {
+  0% {
+    opacity: 1;
+    visibility: visible;
   }
 
+  100% {
+    opacity: 0;
+    visibility: hidden;
+    transform: translate3d(0, 2000px, 1px);
+  }
+}
+.fadeOutDownBig {
   animation-name: fadeOutDownBig;
   animation-duration: var(--animation-out-duration, 1s);
 }
 
 
-.fadeOutLeft {
-  @keyframes fadeOutLeft {
-    0% {
-      opacity: 1;
-      visibility: visible;
-    }
-
-    100% {
-      opacity: 0;
-      visibility: hidden;
-      transform: translate3d(-100%, 0, 1px);
-    }
+@keyframes fadeOutLeft {
+  0% {
+    opacity: 1;
+    visibility: visible;
   }
 
+  100% {
+    opacity: 0;
+    visibility: hidden;
+    transform: translate3d(-100%, 0, 1px);
+  }
+}
+.fadeOutLeft {
   animation-name: fadeOutLeft;
   animation-duration: var(--animation-out-duration, 0.5s);
 
@@ -293,58 +280,55 @@
 }
 
 
-.fadeOutRightBig {
-  @keyframes fadeOutRightBig {
-    0% {
-      opacity: 1;
-      visibility: visible;
-    }
-
-    100% {
-      opacity: 0;
-      visibility: hidden;
-      transform: translate3d(2000px, 0, 1px);
-    }
+@keyframes fadeOutRightBig {
+  0% {
+    opacity: 1;
+    visibility: visible;
   }
 
+  100% {
+    opacity: 0;
+    visibility: hidden;
+    transform: translate3d(2000px, 0, 1px);
+  }
+}
+.fadeOutRightBig {
   animation-name: fadeOutRightBig;
   animation-duration: var(--animation-out-duration, 1s);
 }
 
 
-.fadeOutUp {
-  @keyframes fadeOutUp {
-    0% {
-      opacity: 1;
-      visibility: visible;
-    }
-
-    100% {
-      opacity: 0;
-      visibility: hidden;
-      transform: translate3d(0, -100%, 1px);
-    }
+@keyframes fadeOutUp {
+  0% {
+    opacity: 1;
+    visibility: visible;
   }
 
+  100% {
+    opacity: 0;
+    visibility: hidden;
+    transform: translate3d(0, -100%, 1px);
+  }
+}
+.fadeOutUp {
   animation-name: fadeOutUp;
   animation-duration: var(--animation-out-duration, 1s);
 }
 
 
-.fadeOutUpBig {
-  @keyframes fadeOutUpBig {
-    0% {
-      opacity: 1;
-      visibility: visible;
-    }
-
-    100% {
-      opacity: 0;
-      visibility: hidden;
-      transform: translate3d(0, -2000px, 1px);
-    }
+@keyframes fadeOutUpBig {
+  0% {
+    opacity: 1;
+    visibility: visible;
   }
 
+  100% {
+    opacity: 0;
+    visibility: hidden;
+    transform: translate3d(0, -2000px, 1px);
+  }
+}
+.fadeOutUpBig {
   animation-name: fadeOutUpBig;
   animation-duration: var(--animation-out-duration, 1s);
 }
