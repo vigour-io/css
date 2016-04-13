@@ -71,78 +71,75 @@
 
 :root {
   /* primary theme */
-  --primary:                      black;
-  --primary-hover:                black;
-  --primary-focus:                black;
-  --primary-contrast:             white;
-  --primary-contrast-hover:       black;
-  --primary-contrast-focus:       black;
+  --primary:                      skyblue;
+  --primary-hover:                skyblue;
+  --primary-focus:                skyblue;
+  --primary-contrast:             whitesmoke;
+  --primary-contrast-hover:       whitesmoke;
+  --primary-contrast-focus:       whitesmoke;
 
   /* secondary theme */
-  --secondary:                    black;
-  --secondary-hover:              black;
-  --secondary-focus:              black;
-  --secondary-contrast:           white;
-  --secondary-contrast-hover:     black;
-  --secondary-contrast-focus:     black;
+  --secondary:                    slategrey;
+  --secondary-hover:              slategrey;
+  --secondary-focus:              slategrey;
+  --secondary-contrast:           whitesmoke;
+  --secondary-contrast-hover:     whitesmoke;
+  --secondary-contrast-focus:     whitesmoke;
 
   /* tertiary theme */
-  --tertiary:                     black;
-  --tertiary-hover:               black;
-  --tertiary-focus:               black;
-  --tertiary-contrast:            black;
-  --tertiary-contrast-hover:      black;
-  --tertiary-contrast-focus:      black;
+  --tertiary:                     steelblue;
+  --tertiary-hover:               steelblue;
+  --tertiary-focus:               steelblue;
+  --tertiary-contrast:            whitesmoke;
+  --tertiary-contrast-hover:      whitesmoke;
+  --tertiary-contrast-focus:      whitesmoke;
 
   /* quaternary theme */
-  --quaternary:                   black;
-  --quaternary-hover:             black;
-  --quaternary-focus:             black;
-  --quaternary-contrast:          black;
-  --quaternary-contrast-hover:    black;
-  --quaternary-contrast-focus:    black;
+  --quaternary:                   slategrey;
+  --quaternary-hover:             slategrey;
+  --quaternary-focus:             slategrey;
+  --quaternary-contrast:          whitesmoke;
+  --quaternary-contrast-hover:    whitesmoke;
+  --quaternary-contrast-focus:    whitesmoke;
 
   /* quinary theme */
-  --quinary:                      black;
-  --quinary-hover:                black;
-  --quinary-focus:                black;
-  --quinary-contrast:             black;
-  --quinary-contrast-hover:       black;
-  --quinary-contrast-focus:       black;
+  --quinary:                      slategrey;
+  --quinary-hover:                slategrey;
+  --quinary-focus:                slategrey;
+  --quinary-contrast:             whitesmoke;
+  --quinary-contrast-hover:       whitesmoke;
+  --quinary-contrast-focus:       whitesmoke;
 
   /* grayscale dark theme */
-  --graydark:                     black;
-  --graydark-hover:               black;
-  --graydark-focus:               black;
-  --graydark-contrast:            black;
-  --graydark-contrast-hover:      black;
-  --graydark-contrast-focus:      black;
+  --graydark:                     slategrey;
+  --graydark-hover:               slategrey;
+  --graydark-focus:               slategrey;
+  --graydark-contrast:            whitesmoke;
+  --graydark-contrast-hover:      whitesmoke;
+  --graydark-contrast-focus:      whitesmoke;
 
   /* grayscale light theme */
-  --graylight:                    black;
-  --graylight-hover:              black;
-  --graylight-focus:              black;
-  --graylight-contrast:           black;
-  --graylight-contrast-hover:     black;
-  --graylight-contrast-focus:     black;
+  --graylight:                    slategrey;
+  --graylight-hover:              slategrey;
+  --graylight-focus:              slategrey;
+  --graylight-contrast:           whitesmoke;
+  --graylight-contrast-hover:     whitesmoke;
+  --graylight-contrast-focus:     whitesmoke;
 
   /* black and white theme */
-  --blackwhite:                   black;
-  --blackwhite-hover:             black;
-  --blackwhite-focus:             black;
-  --blackwhite-contrast:          black;
-  --blackwhite-contrast-hover:    black;
-  --blackwhite-contrast-focus:    black;
-
+  --blackwhite:                   slategrey;
+  --blackwhite-hover:             slategrey;
+  --blackwhite-focus:             slategrey;
+  --blackwhite-contrast:          whitesmoke;
+  --blackwhite-contrast-hover:    whitesmoke;
+  --blackwhite-contrast-focus:    whitesmoke;slategrey
   /* success dialog colors */
   --success:                  limegreen;
-  --success-contrast:             white;
-
+  --success-contrast:             whitesmoke;slategrey
   /* waring dialog colors */
   --warning:                 darkorange;
-  --warning-contrast:             white;
-
+  --warning-contrast:             whitesmoke;slategrey
   /* error dialog colors */
   --error:                          red;
-  --error-contrast:               white;
+  --error-contrast:               whitesmoke;
 }
