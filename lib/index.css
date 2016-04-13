@@ -1,13 +1,14 @@
-@import "reset.css";
+@import "./reset.css";
 
-@import "config/body.css";
-@import "config/colors.css";
-@import "config/container.css";
-@import "config/gutter.css";
-@import "config/headings.css";
-@import "config/link.css";
-@import "config/paragraph.css";
-@import "config/responsive.css";
-@import "config/typography.css";
+@import "./config/body.css";
+@import "./config/colors.css";
+@import "./config/container.css";
+@import "./config/gutter.css";
+@import "./config/headings.css";
+@import "./config/link.css";
+@import "./config/paragraph.css";
+@import "./config/responsive.css";
+@import "./config/transition";
+@import "./config/typography.css";
 
-@import "animation/fade.css";
+@import "./animation/fade.css";
