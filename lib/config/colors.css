@@ -71,68 +71,69 @@
 
 :root {
   /* primary theme */
-  --primary:                      skyblue;
-  --primary-hover:                skyblue;
-  --primary-focus:                skyblue;
-  --primary-contrast:             whitesmoke;
-  --primary-contrast-hover:       whitesmoke;
-  --primary-contrast-focus:       whitesmoke;
+  --primary:                      var(--green);
+  --primary-hover:                color(var(--primary) blackness(8%));
+  --primary-focus:                color(var(--primary) blackness(12%));
+  --primary-contrast:             white;
+  --primary-contrast-hover:       color(var(--primary-contrast) blackness(5%));
+  --primary-contrast-focus:       color(var(--primary-contrast) blackness(9%));
 
   /* secondary theme */
-  --secondary:                    slategrey;
-  --secondary-hover:              slategrey;
-  --secondary-focus:              slategrey;
-  --secondary-contrast:           whitesmoke;
-  --secondary-contrast-hover:     whitesmoke;
-  --secondary-contrast-focus:     whitesmoke;
+  --secondary:                    var(--blue);
+  --secondary-hover:              color(var(--secondary) blackness(8%));
+  --secondary-focus:              color(var(--secondary) blackness(12%));
+  --secondary-contrast:           white;
+  --secondary-contrast-hover:     color(var(--secondary-contrast) blackness(5%));
+  --secondary-contrast-focus:     color(var(--secondary-contrast) blackness(9%));
 
   /* tertiary theme */
-  --tertiary:                     steelblue;
-  --tertiary-hover:               steelblue;
-  --tertiary-focus:               steelblue;
-  --tertiary-contrast:            whitesmoke;
-  --tertiary-contrast-hover:      whitesmoke;
-  --tertiary-contrast-focus:      whitesmoke;
+  --tertiary:                     var(--red);
+  --tertiary-hover:               color(var(--tertiary) blackness(8%));
+  --tertiary-focus:               color(var(--tertiary) blackness(12%));
+  --tertiary-contrast:            white;
+  --tertiary-contrast-hover:      color(var(--tertiary-contrast) blackness(5%));
+  --tertiary-contrast-focus:      color(var(--tertiary-contrast) blackness(9%));
 
   /* quaternary theme */
-  --quaternary:                   slategrey;
-  --quaternary-hover:             slategrey;
-  --quaternary-focus:             slategrey;
-  --quaternary-contrast:          whitesmoke;
-  --quaternary-contrast-hover:    whitesmoke;
-  --quaternary-contrast-focus:    whitesmoke;
+  --quaternary:                   var(--orange);
+  --quaternary-hover:             color(var(--quaternary) blackness(8%));
+  --quaternary-focus:             color(var(--quaternary) blackness(12%));
+  --quaternary-contrast:          white;
+  --quaternary-contrast-hover:    color(var(--quaternary-contrast) blackness(5%));
+  --quaternary-contrast-focus:    color(var(--quaternary-contrast) blackness(9%));
 
   /* quinary theme */
-  --quinary:                      slategrey;
-  --quinary-hover:                slategrey;
-  --quinary-focus:                slategrey;
-  --quinary-contrast:             whitesmoke;
-  --quinary-contrast-hover:       whitesmoke;
-  --quinary-contrast-focus:       whitesmoke;
+  --quinary:                      var(--pink);
+  --quinary-hover:                color(var(--quinary) blackness(8%));
+  --quinary-focus:                color(var(--quinary) blackness(12%));
+  --quinary-contrast:             white;
+  --quinary-contrast-hover:       color(var(--quinary-contrast) blackness(5%));
+  --quinary-contrast-focus:       color(var(--quinary-contrast) blackness(9%));
 
   /* grayscale dark theme */
-  --graydark:                     slategrey;
-  --graydark-hover:               slategrey;
-  --graydark-focus:               slategrey;
-  --graydark-contrast:            whitesmoke;
-  --graydark-contrast-hover:      whitesmoke;
-  --graydark-contrast-focus:      whitesmoke;
+  --graydark:                     var(--darkgray);
+  --graydark-hover:               color(var(--graydark) blackness(8%));
+  --graydark-focus:               color(var(--graydark) blackness(12%));
+  --graydark-contrast:            var(--midgray);
+  --graydark-contrast-hover:      color(var(--graydark-contrast) blackness(5%));
+  --graydark-contrast-focus:      color(var(--graydark-contrast) blackness(9%));
 
   /* grayscale light theme */
-  --graylight:                    slategrey;
-  --graylight-hover:              slategrey;
-  --graylight-focus:              slategrey;
-  --graylight-contrast:           whitesmoke;
-  --graylight-contrast-hover:     whitesmoke;
-  --graylight-contrast-focus:     whitesmoke;
+  --graylight:                    var(--midgray);
+  --graylight-hover:              color(var(--graylight) blackness(8%));
+  --graylight-focus:              color(var(--graylight) blackness(12%));
+  --graylight-contrast:           var(--whitegray);
+  --graylight-contrast-hover:     color(var(--graylight-contrast) blackness(5%));
+  --graylight-contrast-focus:     color(var(--graylight-contrast) blackness(9%));
 
   /* black and white theme */
-  --blackwhite:                   slategrey;
-  --blackwhite-hover:             slategrey;
-  --blackwhite-focus:             slategrey;
-  --blackwhite-contrast:          whitesmoke;
-  --blackwhite-contrast-hover:    whitesmoke;
-  --blackwhite-contrast-focus:    whitesmoke;
+  --blackwhite:                   var(--darkgray);
+  --blackwhite-hover:             color(var(--blackwhite) blackness(8%));
+  --blackwhite-focus:             color(var(--blackwhite) blackness(12%));
+  --blackwhite-contrast:          white;
+  --blackwhite-contrast-hover:    color(var(--blackwhite-contrast) blackness(5%));
+  --blackwhite-contrast-focus:    color(var(--blackwhite-contrast) blackness(9%));
+
   /* success dialog colors */
   --success:                      limegreen;
   --success-contrast:             whitesmoke;
