@@ -3,7 +3,7 @@
  * ----------------------------------------------
  */
 
-@import 'responsive.css';
+@import './responsive.css';
 
 :root {
   --container-phone: var(--phone);

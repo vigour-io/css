@@ -2,9 +2,9 @@
  * Body configuration variables
  */
 
-@import 'typography.css';
-@import 'colors.css';
-@import 'headings.css';
+@import './typography.css';
+@import './colors.css';
+@import './headings.css';
 
 :root {
   --body-color: black;
