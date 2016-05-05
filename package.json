@@ -1,6 +1,6 @@
 {
   "name": "@vigour-io/css",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "lib/index.css",
   "scripts": {
@@ -23,9 +23,12 @@
   },
   "browserify": {
     "transform": [
-      ["postcssify", {
-        "plugins": "postcss-cssnext"
-      }]
+      [
+        "postcssify",
+        {
+          "plugins": "postcss-cssnext"
+        }
+      ]
     ]
   }
 }
