@@ -23,10 +23,12 @@
   },
   "browserify": {
     "transform": [
-      [
-        "postcssify",
+      "postcssify",
+      [ "babelify",
         {
-          "plugins": "postcss-cssnext"
+          "presets": [
+            "es2015"
+          ]
         }
       ]
     ]
