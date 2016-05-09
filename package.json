@@ -1,6 +1,6 @@
 {
   "name": "@vigour-io/css",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "",
   "main": "lib/index.css",
   "scripts": {
@@ -24,7 +24,8 @@
   "browserify": {
     "transform": [
       "postcssify",
-      [ "babelify",
+      [
+        "babelify",
         {
           "presets": [
             "es2015"
