@@ -135,12 +135,12 @@
   --blackwhite-contrast-focus:    color(var(--blackwhite-contrast) blackness(+9%));
 
   /* success dialog colors */
-  --success:                      limegreen;
-  --success-contrast:             whitesmoke;
+  --success:                      var(--quinary);
+  --success-contrast:             var(--quinary-contrast);
   /* waring dialog colors */
-  --warning:                      darkorange;
-  --warning-contrast:             whitesmoke;
+  --warning:                      var(--quaternary);
+  --warning-contrast:             var(--quaternaty-contrast);
   /* error dialog colors */
-  --error:                        red;
-  --error-contrast:               whitesmoke;
+  --error:                        var(--primary);
+  --error-contrast:               var(--primary-contrast);
 }
