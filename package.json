@@ -17,21 +17,16 @@
   "bugs": {
     "url": "https://github.com/vigour-io/css/issues"
   },
+  "dependencies": {
+    "postcssify": "^2.1.1"
+  },
   "homepage": "https://github.com/vigour-io/css#readme",
   "engines": {
     "node": ">=4"
   },
   "browserify": {
     "transform": [
-      "postcssify",
-      [
-        "babelify",
-        {
-          "presets": [
-            "es2015"
-          ]
-        }
-      ]
+      "postcssify"
     ]
   }
 }
