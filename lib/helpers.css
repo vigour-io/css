@@ -7,3 +7,38 @@
   flex-wrap: nowrap;
   flex-direction: row;
 }
+
+.flex-grid {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.space-x > :not(:first-child) {
+  margin-left: 1.5rem;
+}
+
+.space-y > :not(:first-child) {
+  margin-top: 1.5rem;
+}
+
+.space-x-small > :not(:first-child) {
+  margin-left: 0.5rem;
+}
+
+.space-y-small > :not(:first-child) {
+  margin-top: 0.5rem;
+}
+
+.inline-row {
+  white-space: nowrap;
+  & > * {
+    vertical-align: top;
+    white-space: normal;
+    display: inline-block;
+  }
+}
+
+.scroll-x {
+  overflow-y: hidden;
+  overflow-x: auto;
+}
