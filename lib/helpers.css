@@ -2,6 +2,10 @@
   direction: rtl;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 .full-absolute {
   position: absolute;
   top: 0; bottom: 0;
@@ -52,4 +56,9 @@
 .scroll-x {
   overflow-y: hidden;
   overflow-x: auto;
+}
+
+.scroll-y {
+  overflow-y: auto;
+  overflow-x: hidden;
 }
