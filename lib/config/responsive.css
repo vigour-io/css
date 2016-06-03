@@ -17,8 +17,8 @@
 }
 
 
-@custom-media --bigger-than-mobile (width >= 320px);
-@custom-media --smaller-than-mobile (width < 320px);
+@custom-media --bigger-than-phone (width >= 320px);
+@custom-media --smaller-than-phone (width < 320px);
 
 @custom-media --smaller-than-phone-landscape (width < 480px);
 @custom-media --bigger-than-phone-landscape (width >= 480px);

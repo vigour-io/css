@@ -7,8 +7,8 @@
 @import './headings.css';
 
 :root {
-  --body-color: black;
-  --body-background: white;
+  --body-color: #eee;
+  --body-background: #161616;
 
   --body-font-size: var(--h6);
   --body-font-style: normal;
