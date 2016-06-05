@@ -106,7 +106,14 @@ ul {
   & ul.bullet {
     list-style: inherit;
     line-height: 1.5;
-    margin-left: 20px;
+
+    &:not(:lang(ar)) {
+      margin-left: 2rem;
+    }
+
+    &:lang(ar) {
+      margin-right: 2rem;
+    }
   }
 }
 
