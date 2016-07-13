@@ -1,9 +1,12 @@
 @import "./reset.css";
 @import "./helpers.css";
+
 @import "./config/body.css";
 @import "./config/colors.css";
-@import "./config/container.css";
+@import "./config/unit.css";
 @import "./config/gutter.css";
+@import "./config/sequence.css";
+@import "./config/container.css";
 @import "./config/headings.css";
 @import "./config/link.css";
 @import "./config/paragraph.css";

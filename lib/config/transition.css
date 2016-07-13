@@ -1,5 +1,5 @@
 :root {
   --transition-duration: .3s;
-  /* @transition-delay: 0; */
-  --transition: ease var(--transition-duration);
+  --transition-duration-short: calc(var(--transition-duration) / 1.618);
+  --transition-duration-long: calc(var(--transition-duration) * 1.618);
 }

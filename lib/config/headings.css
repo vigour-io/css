@@ -9,16 +9,19 @@
   --heading-line-height: 1.2;
   --heading-margin: .3em 0 .1em;
 
-  /* sizes */
-  --h0: 4.8rem;
-  --h1: 3.2rem;
-  --h2: 2.4rem;
-  --h3: 2.0rem;
-  --h4: 1.8rem;
-  --h5: 1.6rem;
-  --h6: 1.4rem;
-  --h7: 1.3rem;
-  --h8: 1.2rem;
-  --h9: 1.1rem;
-  --h10:  1rem;
+  /* that's a better life */
+  --heading-unit: var(--unit);
+  --heading-sequence: var(--major-second);
+  --heading-median: 1.4var(--heading-unit);
+
+  --h1: calc(var(--h2) * var(--heading-sequence));
+  --h2: calc(var(--h3) * var(--heading-sequence));
+  --h3: calc(var(--h4) * var(--heading-sequence));
+  --h4: calc(var(--h5) * var(--heading-sequence));
+  --h5: calc(var(--h6) * var(--heading-sequence));
+  --h6: var(--heading-median);
+  --h7: calc(var(--h6) / var(--heading-sequence));
+  --h8: calc(var(--h7) / var(--heading-sequence));
+  --h9: calc(var(--h8) / var(--heading-sequence));
+  --h10: calc(var(--h9) / var(--heading-sequence));
 }

@@ -1,7 +1,17 @@
 :root{
-  --padding: 1.5rem;
-  --padding-tiny: calc(var(--padding-small) / 1.618);
-  --padding-small: calc(var(--padding) / 1.618);
-  --padding-big: calc(var(--padding) * 1.618);
-  --padding-large: calc(var(--padding-big) * 1.618);
+  --gutter-sequence: var(--golden-ratio);
+
+  --gutter: 1.5rem;
+  --gutter-tiny: calc(
+    var(--gutter-small) / var(--gutter-sequence)
+  );
+  --gutter-small: calc(
+    var(--gutter) / var(--gutter-sequence)
+  );
+  --gutter-big: calc(
+    var(--gutter) * var(--gutter-sequence)
+  );
+  --gutter-large: calc(
+    var(--gutter-big) * var(--gutter-sequence)
+  );
 }

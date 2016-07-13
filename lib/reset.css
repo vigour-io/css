@@ -252,7 +252,7 @@ svg:not(:root) {
 
 hr {
   border: 0;
-  margin: var(--padding) 0;
+  margin: var(--gutter) 0;
 }
 
 figure {
