@@ -15,6 +15,7 @@
   --heading-median: 1.4;
   --heading-base: var(--heading-median)var(--heading-unit);
 
+  --h0: calc(var(--h1) * var(--heading-sequence));
   --h1: calc(var(--h2) * var(--heading-sequence));
   --h2: calc(var(--h3) * var(--heading-sequence));
   --h3: calc(var(--h4) * var(--heading-sequence));
