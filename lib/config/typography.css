@@ -17,4 +17,10 @@
   --font-semibold: 500;
   --font-bold: 700;
   --font-extrabold: 900;
+
+  /* sequence sets */
+  --font-sequence: var(--major-second);
+  --font-sequence-2x: calc(var(--font-sequence) * var(--font-sequence));
+  --font-sequence-3x: calc(var(--font-sequence-2x) * var(--font-sequence));
+  --font-sequence-4x: calc(var(--font-sequence-3x) * var(--font-sequence));
 }

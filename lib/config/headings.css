@@ -11,7 +11,7 @@
 
   /* that's a better life */
   --heading-unit: var(--unit);
-  --heading-sequence: var(--major-second);
+  --heading-sequence: var(--font-sequence);
   --heading-median: 1.4;
   --heading-base: var(--heading-median)var(--heading-unit);
 
