@@ -106,11 +106,11 @@ ul {
     line-height: 1.5;
 
     &:not(:lang(ar)) {
-      margin-left: 2rem;
+      margin-left: 2var(--unit);
     }
 
     &:lang(ar) {
-      margin-right: 2rem;
+      margin-right: 2var(--unit);
     }
   }
 }
