@@ -5,7 +5,8 @@
   "main": "lib/index.css",
   "scripts": {
     "dev": "vpack ./test/index.js --package -p 8101 -o --no-info",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "travis": "npm run test"
   },
   "repository": {
     "type": "git",
