@@ -9,10 +9,8 @@
 :root {
   --body-color: #eee;
   --body-background: #161616;
-
   --body-font-size: var(--h6);
   --body-font-style: normal;
-
   --body-font-weight: var(--font-regular);
   --body-font-variant: normal;
   --body-line-height: 1.4;

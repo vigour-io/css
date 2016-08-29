@@ -19,11 +19,9 @@ html {
   position: relative;
   height: 100%;
   font-size: 10px;
-
   color: var(--body-color);
   background: var(--body-background);
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-overflow-scrolling: touch;
@@ -82,7 +80,6 @@ h5 {
 h6 {
   font-size: var(--h6);
 }
-
 
 input,
 button {
@@ -341,9 +338,6 @@ input {
 
 button,
 html input[type=button],
-
-/* 1 */
-
 input[type=reset],
 input[type=submit] {
   -webkit-appearance: button;

@@ -9,11 +9,11 @@
     visibility: visible;
   }
 }
+
 .fadeIn {
   animation-name: fadeIn;
   animation-duration: var(--animation-in-duration, 1s);
 }
-
 
 @keyframes fadeInDown {
   0% {
@@ -28,11 +28,11 @@
     transform: none;
   }
 }
+
 .fadeInDown {
   animation-name: fadeInDown;
   animation-duration: var(--animation-in-duration, 1s);
 }
-
 
 @keyframes fadeInDownBig {
   0% {
@@ -47,11 +47,11 @@
     transform: none;
   }
 }
+
 .fadeInDownBig {
   animation-name: fadeInDownBig;
   animation-duration: var(--animation-in-duration, 1s);
 }
-
 
 @keyframes fadeInLeft {
   0% {
@@ -66,11 +66,11 @@
     transform: none;
   }
 }
+
 .fadeInLeft {
   animation-name: fadeInLeft;
   animation-duration: var(--animation-in-duration, 1s);
 }
-
 
 @keyframes fadeInLeftBig {
   0% {
@@ -85,11 +85,11 @@
     transform: none;
   }
 }
+
 .fadeInLeftBig {
   animation-name: fadeInLeftBig;
   animation-duration: var(--animation-in-duration, 1s);
 }
-
 
 @keyframes fadeInRight {
   0% {
@@ -104,11 +104,11 @@
     transform: none;
   }
 }
+
 .fadeInRight {
   animation-name: fadeInRight;
   animation-duration: var(--animation-in-duration, 1s);
 }
-
 
 @keyframes fadeInRightBig {
   0% {
@@ -123,11 +123,11 @@
     transform: none;
   }
 }
+
 .fadeInRightBig {
   animation-name: fadeInRightBig;
   animation-duration: var(--animation-in-duration, 1s);
 }
-
 
 @keyframes fadeInUp {
   0% {
@@ -142,11 +142,11 @@
     transform: none;
   }
 }
+
 .fadeInUp {
   animation-name: fadeInUp;
   animation-duration: var(--animation-in-duration, 1s);
 }
-
 
 @keyframes fadeInUpBig {
   0% {
@@ -161,11 +161,11 @@
     transform: none;
   }
 }
+
 .fadeInUpBig {
   animation-name: fadeInUpBig;
   animation-duration: var(--animation-in-duration, 1s);
 }
-
 
 @keyframes fadeOut {
   0% {
@@ -178,11 +178,11 @@
     visibility: hidden;
   }
 }
+
 .fadeOut {
   animation-name: fadeOut;
   animation-duration: var(--animation-out-duration, 1s);
 }
-
 
 @keyframes fadeOutDown {
   0% {
@@ -196,11 +196,11 @@
     transform: translate3d(0, 100%, 1px);
   }
 }
+
 .fadeOutDown {
   animation-name: fadeOutDown;
   animation-duration: var(--animation-out-duration, 1s);
 }
-
 
 @keyframes fadeOutDownBig {
   0% {
@@ -214,11 +214,11 @@
     transform: translate3d(0, 2000px, 1px);
   }
 }
+
 .fadeOutDownBig {
   animation-name: fadeOutDownBig;
   animation-duration: var(--animation-out-duration, 1s);
 }
-
 
 @keyframes fadeOutLeft {
   0% {
@@ -232,13 +232,13 @@
     transform: translate3d(-100%, 0, 1px);
   }
 }
+
 .fadeOutLeft {
   animation-name: fadeOutLeft;
   animation-duration: var(--animation-out-duration, 0.5s);
 
   /* .animation-duration(0.5s); */
 }
-
 
 @keyframes fadeOutLeftBig {
   0% {
@@ -252,11 +252,11 @@
     transform: translate3d(-2000px, 0, 1px);
   }
 }
+
 .fadeOutLeftBig {
   animation-name: fadeOutLeftBig;
   animation-duration: var(--animation-out-duration, 1s);
 }
-
 
 @keyframes fadeOutRight {
   0% {
@@ -270,13 +270,13 @@
     transform: translate3d(100%, 0, 1px);
   }
 }
+
 .fadeOutRight {
   animation-name: fadeOutRight;
   animation-duration: var(--animation-out-duration, 0.5s);
 
   /* .animation-duration(0.5s); */
 }
-
 
 @keyframes fadeOutRightBig {
   0% {
@@ -290,11 +290,11 @@
     transform: translate3d(2000px, 0, 1px);
   }
 }
+
 .fadeOutRightBig {
   animation-name: fadeOutRightBig;
   animation-duration: var(--animation-out-duration, 1s);
 }
-
 
 @keyframes fadeOutUp {
   0% {
@@ -308,11 +308,11 @@
     transform: translate3d(0, -100%, 1px);
   }
 }
+
 .fadeOutUp {
   animation-name: fadeOutUp;
   animation-duration: var(--animation-out-duration, 1s);
 }
-
 
 @keyframes fadeOutUpBig {
   0% {
@@ -326,6 +326,7 @@
     transform: translate3d(0, -2000px, 1px);
   }
 }
+
 .fadeOutUpBig {
   animation-name: fadeOutUpBig;
   animation-duration: var(--animation-out-duration, 1s);
