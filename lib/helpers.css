@@ -6,6 +6,10 @@
   font-weight: var(--font-bold);
 }
 
+.margin-gutter {
+  margin: var(--gutter);
+}
+
 .full-absolute {
   position: absolute;
   top: 0;
