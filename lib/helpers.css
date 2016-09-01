@@ -10,6 +10,18 @@
   margin: var(--gutter);
 }
 
+@media (--smaller-than-tablet-landscape) {
+  .page-padding {
+    padding: var(--gutter);
+  }
+}
+
+@media (--bigger-than-tablet-landscape) {
+  .page-padding {
+    padding: 3rem 5rem;
+  }
+}
+
 .full-absolute {
   position: absolute;
   top: 0;
