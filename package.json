@@ -1,6 +1,6 @@
 {
   "name": "@vigour-io/css",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "",
   "main": "lib/index.css",
   "scripts": {
