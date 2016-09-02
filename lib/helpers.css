@@ -10,6 +10,13 @@
   margin: var(--gutter);
 }
 
+.float-right {
+  float: right;
+  &:lang(ar) {
+    float: left;
+  }
+}
+
 @media (--smaller-than-tablet-landscape) {
   .page-padding {
     padding: var(--gutter);
