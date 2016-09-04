@@ -17,19 +17,18 @@
   }
 }
 
-/*@media (--smaller-than-tablet-landscape) {
-  .page-padding {
-    padding: var(--gutter);
-  }
-}*/
-
 @media (--bigger-than-tablet-landscape) {
   .page-padding {
     padding: 3rem 5rem;
   }
-/*  .page-padding-x {
-    padding: 0 5rem;
-  }*/
+  .page-padding-x {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .page-margin-x {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
 }
 
 .full-absolute {
