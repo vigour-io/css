@@ -17,16 +17,19 @@
   }
 }
 
-@media (--smaller-than-tablet-landscape) {
+/*@media (--smaller-than-tablet-landscape) {
   .page-padding {
     padding: var(--gutter);
   }
-}
+}*/
 
 @media (--bigger-than-tablet-landscape) {
   .page-padding {
     padding: 3rem 5rem;
   }
+/*  .page-padding-x {
+    padding: 0 5rem;
+  }*/
 }
 
 .full-absolute {
