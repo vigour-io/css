@@ -2,6 +2,10 @@
   direction: rtl;
 }
 
+.hidden {
+  visibility: hidden;
+}
+
 .bold {
   font-weight: var(--font-bold);
 }
@@ -12,8 +16,26 @@
 
 .float-right {
   float: right;
-  &:lang(ar) {
-    float: left;
+}
+
+.rtl .float-right {
+  float: left;
+}
+
+.play-modal {
+  padding: 15px;
+  text-align: center;
+
+  & .icon-logo {
+    line-height: 72px;
+    font-size: 3.2rem;
+  }
+
+  & .play-avatar {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 5rem;
+    background-color: var(--modal-navbar-bg);
   }
 }
 
