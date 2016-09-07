@@ -10,6 +10,11 @@
   font-weight: var(--font-bold);
 }
 
+
+.relative {
+  position: relative;
+}
+
 .margin-gutter {
   margin: var(--gutter);
 }
