@@ -58,6 +58,12 @@
   }
 }
 
+@media (--smaller-than-tablet-landscape) {
+  .page-padding.content {
+    padding: 1.5rem;
+  }
+}
+
 .full-absolute {
   position: absolute;
   top: 0;
