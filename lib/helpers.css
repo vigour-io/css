@@ -58,6 +58,10 @@
   }
 }
 
+.page-padding {
+  padding: 1rem 1.5rem
+}
+
 .full-absolute {
   position: absolute;
   top: 0;
