@@ -59,8 +59,10 @@
 }
 
 @media (--smaller-than-tablet-landscape) {
-  .page-padding.content {
-    padding: 1.5rem;
+  .tablet, .desktop {
+    & .page-padding.content {
+      padding: 1.5rem;
+    }
   }
 }
 
