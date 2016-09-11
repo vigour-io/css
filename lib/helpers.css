@@ -10,7 +10,6 @@
   font-weight: var(--font-bold);
 }
 
-
 .relative {
   position: relative;
 }
@@ -47,14 +46,14 @@
 @media (--bigger-than-tablet-landscape) {
   .page-padding {
     padding: 3rem 5rem;
+    max-width: 1400px;
+    margin: auto;
   }
   .page-padding-x {
     padding-left: 5rem;
     padding-right: 5rem;
-  }
-  .page-margin-x {
-    margin-left: 5rem;
-    margin-right: 5rem;
+    max-width: 1400px;
+    margin: auto;
   }
 }
 
@@ -64,6 +63,11 @@
       padding: 1.5rem;
     }
   }
+}
+
+.gpu-hack {
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
 }
 
 .full-absolute {
