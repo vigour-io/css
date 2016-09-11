@@ -26,6 +26,8 @@
   float: left;
 }
 
+
+
 .play-modal {
   padding: 15px;
   text-align: center;
@@ -136,4 +138,13 @@
 .scroll-y {
   overflow-y: auto;
   overflow-x: hidden;
+}
+
+.play-fullscreen {
+  & .scroll-x {
+    overflow-x: hidden;
+  }
+  & .scroll-y {
+    overflow-y: hidden;
+  }
 }
