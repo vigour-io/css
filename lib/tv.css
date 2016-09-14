@@ -1,0 +1,8 @@
+:root {
+  --gutter-base: 2.5;
+  --heading-median: 2.5;
+  --tv-transition-duration: var(--transition-duration);
+  --tv-transition-duration-short: var(--transition-duration-short);
+  --tv-transition-duration-long: var(--transition-duration-long);
+  --unit: vh;
+}
