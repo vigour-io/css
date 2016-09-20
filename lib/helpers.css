@@ -26,8 +26,6 @@
   float: left;
 }
 
-
-
 .play-modal {
   padding: 15px;
   text-align: center;
@@ -70,7 +68,6 @@
 
 .gpu-hack {
   -webkit-backface-visibility: hidden;
-  -webkit-perspective: 1000;
 }
 
 .full-absolute {
