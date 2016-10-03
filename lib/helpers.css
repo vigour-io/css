@@ -138,6 +138,11 @@
   overflow-y: auto;
   overflow-x: hidden;
 }
+.desktop .scroll-y {
+  overflow-y: scroll;
+  margin-right: -1.7rem;
+}
+
 
 .play-fullscreen {
   & .scroll-x {
