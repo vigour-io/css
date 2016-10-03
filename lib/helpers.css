@@ -142,6 +142,10 @@
   overflow-y: scroll;
   margin-right: -1.7rem;
 }
+.desktop .scroll-y:lang(ar) {
+  margin-right: 0;
+  margin-left: -1.7rem;
+}
 
 
 .play-fullscreen {
