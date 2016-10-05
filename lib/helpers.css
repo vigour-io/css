@@ -146,6 +146,10 @@
   margin-right: 0;
   margin-left: -1.7rem;
 }
+.desktop.firefox .scroll-y {
+  overflow-y: auto;
+  margin: 0;
+}
 
 
 .play-fullscreen {
