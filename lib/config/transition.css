@@ -1,5 +1,0 @@
-:root {
-  --transition-duration: .3s;
-  --transition-duration-short: calc(var(--transition-duration) / 1.618);
-  --transition-duration-long: calc(var(--transition-duration) * 1.618);
-}

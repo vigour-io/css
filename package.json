@@ -1,33 +1,46 @@
 {
   "name": "@vigour-io/css",
-  "version": "1.3.0",
-  "description": "",
-  "main": "lib/index.css",
+  "version": "1.0.3",
+  "description": "Vigour variables, assets and styles",
+  "main": "lib/index.js",
   "scripts": {
-    "dev": "vpack ./test/index.js --package -p 8101 -o --no-info",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "travis": "npm run test"
+    "test": "stylelint '**/*.css' -i .gitignore"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vigour-io/css.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "vigour.io <dev@vigour.io>",
+  "keywords": [
+    "styleguide",
+    "variables",
+    "CSS"
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/vigour-io/css/issues"
   },
   "dependencies": {
-    "postcssify": "^2.1.1"
+    "@vigour-io/css-default": "^1.0.1",
+    "@vigour-io/css-class": "^1.0.1",
+    "postcssify": "^2.6.2"
   },
+  "devDependencies": {
+    "pre-commit": "^1.1.3",
+    "stylelint": "^7.5.0",
+    "stylelint-config-standard": "^14.0.0"
+  },
+  "contributors": [
+    "Youri Daamen <youri@vigour.io>",
+    "Morten Broesby-Olsen  <morten@vigour.io>"
+  ],
   "homepage": "https://github.com/vigour-io/css#readme",
-  "engines": {
-    "node": ">=4"
-  },
   "browserify": {
     "transform": [
       "postcssify"
     ]
+  },
+  "stylelint": {
+    "extends": "stylelint-config-standard"
   }
 }

@@ -2,9 +2,9 @@
 language: node_js
 git:
   depth: 1
-node_js:
-  - '6.3'
-script: npm run travis
+node_js: '6.3'
+before_install:
+  - echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" > .npmrc
 notifications:
   email: false
 deploy:

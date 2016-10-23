@@ -1,0 +1,37 @@
+@import './fonts.css';
+@import './icons.css';
+
+:root {
+  --color-a: #001e49;
+  --color-b: #00c4dd;
+  --font-color-a: #001e49;
+  --font-color-b: #001e49;
+  --icon-color-a: white;
+  --icon-color-b: #001e49;
+  --bg-color-a: #fff;
+  --bg-color-b: #ff0049;
+  --accent-color-a: #ff0049;
+}
+
+body {
+  font-family: 'FF Mark', Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  color: var(--color-a);
+  font-weight: 700;
+}
+
+h2 {
+  color: var(--color-a);
+  font-weight: 700;
+}
+
+h4 {
+  color: var(--font-color-b);
+}
+
+p {
+  color: var(--font-color-b);
+}
+

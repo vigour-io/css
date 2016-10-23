@@ -1,12 +1,19 @@
-# CSS
-Vigour's basic CSS library
+# style
 
-Issues that describe this repository very well:
+[![Build Status](https://api.travis-ci.org/vigour-io/style.svg)](https://travis-ci.org/vigour-io/style)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+[![npm (scoped)](https://img.shields.io/npm/v/@vigour-io/style.svg)](https://github.com/vigour-io/style)
 
-- [CSS Next structuring](https://github.com/vigour-io/css/issues/1)
-- [Rethinking of compiling CSS](https://github.com/vigour-io/css/issues/2)
-- [CSS Naming convention](https://github.com/vigour-io/css/issues/3)
+Vigour variables, assets and styles
 
--
+## Getting started
 
-For guidance of contributing css and play components, check out  [play/CONTRIBUTION.md](https://github.com/vigour-io/play/blob/master/CONTRIBUTION.md)
+### Install it:
+```shell
+npm i @vigour-io/style --save
+```
+
+### Require it:
+```js
+require('@vigour-io/style')
+```
