@@ -1,8 +1,8 @@
 # style
 
-[![Build Status](https://api.travis-ci.org/vigour-io/style.svg)](https://travis-ci.org/vigour-io/style)
+[![Build Status](https://api.travis-ci.org/vigour-io/css.svg)](https://travis-ci.org/vigour-io/css)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
-[![npm (scoped)](https://img.shields.io/npm/v/@vigour-io/style.svg)](https://github.com/vigour-io/style)
+[![npm (scoped)](https://img.shields.io/npm/v/@vigour-io/css.svg)](https://github.com/vigour-io/css)
 
 Vigour variables, assets and styles
 
@@ -10,10 +10,10 @@ Vigour variables, assets and styles
 
 ### Install it:
 ```shell
-npm i @vigour-io/style --save
+npm i @vigour-io/css --save
 ```
 
 ### Require it:
 ```js
-require('@vigour-io/style')
+require('@vigour-io/css')
 ```
