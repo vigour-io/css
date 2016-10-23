@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@vigour-io/css-default": "^1.0.1",
-    "@vigour-io/css-class": "^1.0.1",
+    "@vigour-io/css-class": "^1.0.2",
     "postcssify": "^2.6.2"
   },
   "devDependencies": {
