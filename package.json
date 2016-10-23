@@ -1,6 +1,6 @@
 {
   "name": "@vigour-io/css",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Vigour variables, assets and styles",
   "main": "lib/index.js",
   "scripts": {
