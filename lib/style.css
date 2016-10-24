@@ -3,14 +3,14 @@
 
 :root {
   --color-a: #001e49;
-  --color-b: #00c4dd;
-  --font-color-a: #001e49;
-  --font-color-b: #001e49;
-  --icon-color-a: white;
+  --color-b: #ff0049;
+  --font-color-a: #fff;
+  --font-color-b: #fff;
+  --icon-color-a: #fff;
   --icon-color-b: #001e49;
-  --bg-color-a: #fff;
-  --bg-color-b: #ff0049;
-  --accent-color-a: #ff0049;
+  --bg-color-a: #e6e6e6;
+  --bg-color-b: #e3e3e3;
+  --accent-color-a: #00c4dd;
 }
 
 body {
