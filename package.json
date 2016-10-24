@@ -21,8 +21,8 @@
     "url": "https://github.com/vigour-io/css/issues"
   },
   "dependencies": {
-    "@vigour-io/css-default": "^1.0.1",
     "@vigour-io/css-class": "^1.0.2",
+    "@vigour-io/css-default": "^1.0.1",
     "postcssify": "^2.6.2"
   },
   "devDependencies": {
