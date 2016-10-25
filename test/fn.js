@@ -2,8 +2,8 @@
 const test = require('tape')
 
 module.exports = (node, state) => {
-  test('svg loads correctly', t => {
-
+  test('placeholder css test', t => {
+    t.ok(true, 'test passes')
     t.end()
   })
 }
