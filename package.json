@@ -4,7 +4,8 @@
   "description": "Vigour variables, assets and styles",
   "main": "lib/index.js",
   "scripts": {
-    "test": "stylelint '**/*.css' -i .gitignore"
+    "test": "stylelint '**/*.css' -i .gitignore",
+    "dev": "budo ./test/index.js -d lib/ -d ./ --css bundle.css --live"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,8 @@
     "postcssify": "^2.6.2"
   },
   "devDependencies": {
+    "brisky": "^1.3.6",
+    "budo": "^9.2.1",
     "pre-commit": "^1.1.3",
     "stylelint": "^7.5.0",
     "stylelint-config-standard": "^14.0.0"
