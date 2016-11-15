@@ -22,12 +22,12 @@
     "url": "https://github.com/vigour-io/css/issues"
   },
   "dependencies": {
-    "@vigour-io/css-class": "^1.0.4",
-    "@vigour-io/css-default": "^1.0.4",
+    "@vigour-io/css-class": "^1.0.5",
+    "@vigour-io/css-default": "^1.0.5",
     "postcssify": "^2.6.2"
   },
   "devDependencies": {
-    "brisky": "^1.3.6",
+    "brisky": "^1.4.2",
     "budo": "^9.2.1",
     "pre-commit": "^1.1.3",
     "stylelint": "^7.5.0",
